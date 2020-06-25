@@ -1,0 +1,16 @@
+com\manifesting\fileConvertor\UtilClasses\FunctionUtil.class
+com\manifesting\fileConvertor\tcda\repository\ItemRepository.class
+com\manifesting\fileConvertor\tcda\service\ItemService.class
+com\manifesting\fileConvertor\Parser\Parser.class
+com\manifesting\fileConvertor\tcda\entity\Item.class
+com\manifesting\fileConvertor\dms\repository\DMSRepository.class
+com\manifesting\fileConvertor\tcda\entity\TcdaModel.class
+com\manifesting\fileConvertor\tcda\repository\TcdaRepository.class
+com\manifesting\fileConvertor\Aggregator\TagAggregator.class
+com\manifesting\fileConvertor\FileConvertorApplication.class
+com\manifesting\fileConvertor\dms\service\DMSService.class
+com\manifesting\fileConvertor\dms\controller\DMSController.class
+com\manifesting\fileConvertor\tcda\controller\TcdaController.class
+com\manifesting\fileConvertor\dms\entity\DMSModel.class
+com\manifesting\fileConvertor\UtilClasses\GetFunctionFromDms.class
+com\manifesting\fileConvertor\tcda\service\TcdaService.class

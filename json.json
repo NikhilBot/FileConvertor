@@ -1,0 +1,843 @@
+{
+    "fileFormat": "XML",
+    "partFileElement": [
+      "java.util.ArrayList",
+      [
+        [
+          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+          {
+            "tag": "shipmentDetail",
+            "body": [
+              "java.util.ArrayList",
+              [
+                [
+                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                  {
+                    "tag": "consigneeAddress",
+                    "body": [
+                      "java.util.ArrayList",
+                      [
+                        [
+                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                          {
+                            "tag": "name",
+                            "body": [
+                              "java.util.ArrayList",
+                              [
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                  {
+                                    "attributeId": "aaaa-1111-bbbb-7895"
+                                  }
+                                ]
+                              ]
+                            ],
+                            "dataOnlyBlock": true
+                          }
+                        ],
+                        [
+                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                          {
+                            "tag": "city",
+                            "body": [
+                              "java.util.ArrayList",
+                              [
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                  {
+                                    "attributeId": "aaaa-1111-bbbb-2223"
+                                  }
+                                ]
+                              ]
+                            ],
+                            "dataOnlyBlock": true
+                          }
+                        ],
+                        [
+                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                          {
+                            "tag": "zip",
+                            "body": [
+                              "java.util.ArrayList",
+                              [
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                  {
+                                    "attributeId": "aaaa-1111-bbbb-3456"
+                                  }
+                                ]
+                              ]
+                            ],
+                            "dataOnlyBlock": true
+                          }
+                        ],
+                        [
+                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                          {
+                            "tag": "countryCode",
+                            "body": [
+                              "java.util.ArrayList",
+                              [
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                  {
+                                    "attributeId": "aaaa-1111-bbbb-4567"
+                                  }
+                                ]
+                              ]
+                            ],
+                            "dataOnlyBlock": true
+                          }
+                        ],
+                        [
+                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                          {
+                            "tag": "countryName",
+                            "body": [
+                              "java.util.ArrayList",
+                              [
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                  {
+                                    "attributeId": "aaaa-1111-bbbb-5678"
+                                  }
+                                ]
+                              ]
+                            ],
+                            "dataOnlyBlock": true
+                          }
+                        ],
+                        [
+                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                          {
+                            "tag": "contactPhone",
+                            "body": [
+                              "java.util.ArrayList",
+                              [
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                  {
+                                    "attributeId": "aaaa-1111-bbbb-8512"
+                                  }
+                                ]
+                              ]
+                            ],
+                            "dataOnlyBlock": true
+                          }
+                        ]
+                      ]
+                    ],
+                    "tagAttributeMap": [
+                      "java.util.HashMap",
+                      {
+                        "AddressType": {
+                          "attributeId": "consigneeAddressType"
+                        }
+                      }
+                    ],
+                    "dataOnlyBlock": false
+                  }
+                ],
+                [
+                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                  {
+                    "tag": "shipmentPackageInfo",
+                    "body": [
+                      "java.util.ArrayList",
+                      [
+                        [
+                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                          {
+                            "tag": "cartonID",
+                            "body": [
+                              "java.util.ArrayList",
+                              [
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                  {
+                                    "tag": "trackingID",
+                                    "body": [
+                                      "java.util.ArrayList",
+                                      [
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                          {
+                                            "attributeId": "aaaa-1111-bbbb-4444"
+                                          }
+                                        ]
+                                      ]
+                                    ],
+                                    "dataOnlyBlock": true
+                                  }
+                                ]
+                              ]
+                            ],
+                            "dataOnlyBlock": false
+                          }
+                        ],
+                        [
+                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                          {
+                            "tag": "shipmentPackageDimensions",
+                            "body": [
+                              "java.util.ArrayList",
+                              [
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                  {
+                                    "tag": "lengthValue",
+                                    "body": [
+                                      "java.util.ArrayList",
+                                      [
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                          {
+                                            "attributeId": "aaaa-1111-bbbb-6789",
+                                            "method": "convert",
+                                            "conversionUtil": "lengthConversion",
+                                            "methodArguments": [
+                                              "java.util.ArrayList",
+                                              [
+                                                {
+                                                  "type": "CONSTANT",
+                                                  "value": "CM"
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    ],
+                                    "dataOnlyBlock": true
+                                  }
+                                ],
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                  {
+                                    "tag": "heightValue",
+                                    "body": [
+                                      "java.util.ArrayList",
+                                      [
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                          {
+                                            "attributeId": "aaaa-1111-bbbb-8754",
+                                            "method": "convert",
+                                            "conversionUtil": "lengthConversion",
+                                            "methodArguments": [
+                                              "java.util.ArrayList",
+                                              [
+                                                {
+                                                  "type": "CONSTANT",
+                                                  "value": "CM"
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    ],
+                                    "dataOnlyBlock": true
+                                  }
+                                ]
+                              ]
+                            ],
+                            "dataOnlyBlock": false
+                          }
+                        ]
+                      ]
+                    ],
+                    "dataOnlyBlock": false
+                  }
+                ]
+              ]
+            ],
+            "dataOnlyBlock": false
+          }
+        ]
+      ]
+    ],
+    "batchFileElement": [
+      "java.util.ArrayList",
+      [
+        [
+          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+          {
+            "tag": "transmission",
+            "body": [
+              "java.util.ArrayList",
+              [
+                [
+                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                  {
+                    "tag": "message",
+                    "body": [
+                      "java.util.ArrayList",
+                      [
+                        [
+                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                          {
+                            "tag": "amazonManifest",
+                            "body": [
+                              "java.util.ArrayList",
+                              [
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                  {
+                                    "tag": "manifestHeader",
+                                    "body": [
+                                      "java.util.ArrayList",
+                                      [
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "carrierInternalID",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                  {
+                                                    "attributeId": "carrierInternalID"
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": true
+                                          }
+                                        ],
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "shipmentMethod",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "amazonTechnicalName",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "amazonTechnicalName"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": false
+                                          }
+                                        ],
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "manifestNumber",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                  {
+                                                    "attributeId": "manifestId"
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": true
+                                          }
+                                        ],
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "carrierAccountID",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                  {
+                                                    "attributeId": "carrierAccountID"
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": true
+                                          }
+                                        ],
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "shipmentDate",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                  {
+                                                    "attributeId": "DateTime"
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": true
+                                          }
+                                        ],
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "shipFromAddress",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "name",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "shipFromName"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ],
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "addressLine1",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "shipFromAddressLine1"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ],
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "city",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "shipFromCity"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ],
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "stateChoice",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                          {
+                                                            "tag": "stateProvince",
+                                                            "body": [
+                                                              "java.util.ArrayList",
+                                                              [
+                                                                [
+                                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                                  {
+                                                                    "attributeId": "shipFromStateProvince"
+                                                                  }
+                                                                ]
+                                                              ]
+                                                            ],
+                                                            "dataOnlyBlock": true
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "dataOnlyBlock": false
+                                                  }
+                                                ],
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "zip",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "shipFromZip"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ],
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "countryCode",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "shipFromCountryCode"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ],
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "countryName",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "shipFromCountryName"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "tagAttributeMap": [
+                                              "java.util.HashMap",
+                                              {
+                                                "AddressType": {
+                                                  "attributeId": "shipFromAddressType"
+                                                }
+                                              }
+                                            ],
+                                            "dataOnlyBlock": false
+                                          }
+                                        ],
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "prepaidCollect",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                  {
+                                                    "attributeId": "prepaidCollect"
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": true
+                                          }
+                                        ]
+                                      ]
+                                    ],
+                                    "dataOnlyBlock": false
+                                  }
+                                ],
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                  {
+                                    "tag": "manifestDetail",
+                                    "body": [
+                                      "java.util.ArrayList",
+                                      [
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                          {
+                                            "attributeId": "payload"
+                                          }
+                                        ]
+                                      ]
+                                    ],
+                                    "dataOnlyBlock": false
+                                  }
+                                ],
+                                [
+                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                  {
+                                    "tag": "manifestSummary",
+                                    "body": [
+                                      "java.util.ArrayList",
+                                      [
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "totalShipmentQuantity",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "quantity",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "totalShipmentQuantityQuantity"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "tagAttributeMap": [
+                                                      "java.util.HashMap",
+                                                      {
+                                                        "unitOfMeasure": {
+                                                          "attributeId": "quantityUnitOfMeasure"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": false
+                                          }
+                                        ],
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "totalShipmentValue",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "chargeOrAllowance",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "chargeOrAllowance"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ],
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "monetaryAmount",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "totalShipmentValueMonetaryAmount"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "tagAttributeMap": [
+                                                      "java.util.HashMap",
+                                                      {
+                                                        "currencyISOCode": {
+                                                          "attributeId": "currencyISOCode"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": false
+                                          }
+                                        ],
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "totalDeclaredGrossWeight",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "weightValue",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "totalDeclaredGrossWeightValue"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "tagAttributeMap": [
+                                                      "java.util.HashMap",
+                                                      {
+                                                        "unitOfMeasure": {
+                                                          "attributeId": "weightUnitOfMeasure"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": false
+                                          }
+                                        ],
+                                        [
+                                          "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                          {
+                                            "tag": "totalActualGrossWeight",
+                                            "body": [
+                                              "java.util.ArrayList",
+                                              [
+                                                [
+                                                  "com.amazon.nymphusconfigurationservicelambda.template.model.XMLBlock",
+                                                  {
+                                                    "tag": "weightValue",
+                                                    "body": [
+                                                      "java.util.ArrayList",
+                                                      [
+                                                        [
+                                                          "com.amazon.nymphusconfigurationservicelambda.template.model.DataBlock",
+                                                          {
+                                                            "attributeId": "totalActualGrossWeightValue"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    ],
+                                                    "tagAttributeMap": [
+                                                      "java.util.HashMap",
+                                                      {
+                                                        "unitOfMeasure": {
+                                                          "attributeId": "weightUnitOfMeasure"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "dataOnlyBlock": true
+                                                  }
+                                                ]
+                                              ]
+                                            ],
+                                            "dataOnlyBlock": false
+                                          }
+                                        ]
+                                      ]
+                                    ],
+                                    "dataOnlyBlock": false
+                                  }
+                                ]
+                              ]
+                            ],
+                            "dataOnlyBlock": false
+                          }
+                        ]
+                      ]
+                    ],
+                    "tagAttributeMap": [
+                      "java.util.HashMap",
+                      {
+                        "messageControlNumber": {
+                          "attributeId": "manifestId"
+                        },
+                        "messageSchemaVersionNumber": {
+                          "attributeId": "messageSchemaVersionNumber"
+                        },
+                        "sendingPartyID": {
+                          "attributeId": "sendingPartyID"
+                        },
+                        "messageType": {
+                          "attributeId": "messageType"
+                        },
+                        "receivingPartyID": {
+                          "attributeId": "receivingPartyID"
+                        },
+                        "messageDateTime": {
+                          "attributeId": "DateTime"
+                        }
+                      }
+                    ],
+                    "dataOnlyBlock": false
+                  }
+                ]
+              ]
+            ],
+            "tagAttributeMap": [
+              "java.util.HashMap",
+              {
+                "transmissionDateTime": {
+                  "attributeId": "DateTime"
+                },
+                "messageCount": {
+                  "attributeId": "messageCount"
+                },
+                "sendingPartyID": {
+                  "attributeId": "sendingPartyID"
+                },
+                "xsi:noNamespaceSchemaLocation": {
+                  "attributeId": "xsi:noNamespaceSchemaLocation"
+                },
+                "receivingPartyID": {
+                  "attributeId": "receivingPartyID"
+                },
+                "transmissionSchemaVersionNumber": {
+                  "attributeId": "transmissionSchemaVersionNumber"
+                },
+                "xmlns:xsi": {
+                  "attributeId": "xmlns:xsi"
+                },
+                "transmissionControlNumber": {
+                  "attributeId": "manifestId"
+                }
+              }
+            ],
+            "dataOnlyBlock": false
+          }
+        ]
+      ]
+    ]
+  }
