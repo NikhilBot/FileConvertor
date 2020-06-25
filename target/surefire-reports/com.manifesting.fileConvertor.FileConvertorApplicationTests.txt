@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.manifesting.fileConvertor.FileConvertorApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.192 s <<< FAILURE! - in com.manifesting.fileConvertor.FileConvertorApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+

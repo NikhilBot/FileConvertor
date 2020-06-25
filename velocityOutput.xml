@@ -1,0 +1,108 @@
+  <shipmentDetail>
+  <consigneeAddress  AddressType = "Satara" >
+      <City> Satara </City>
+      <Name> ajay </Name>
+      <Zip> 450540 </Zip>
+      <countryName> India </countryName>
+      <countryCode> IN </countryCode>
+      <Contact> 987655651 </Contact>
+  <ShipmentPackageItemDetail>
+      <itemTitle> Macbook </itemTitle>
+  <ItemQuantity>
+      <Quantity> 100 </Quantity>
+  </ItemQuantity>
+  </ShipmentPackageItemDetail>
+      <if> India </if>
+      <else> IN </else>
+  </consigneeAddress>
+  </shipmentDetail>
+  <shipmentDetail>
+  <consigneeAddress  AddressType = "Satna" >
+      <City> Satna </City>
+      <Name> Nikhil </Name>
+      <Zip> 450000 </Zip>
+      <countryName> India </countryName>
+      <countryCode> IN </countryCode>
+      <Contact> 987654321 </Contact>
+      <if> India </if>
+      <else> IN </else>
+  </consigneeAddress>
+  </shipmentDetail>
+  <shipmentDetail>
+  <consigneeAddress  AddressType = "Sal" >
+      <City> Sal </City>
+      <Name> ayan </Name>
+      <Zip> 450580 </Zip>
+      <countryName> India </countryName>
+      <countryCode> IN </countryCode>
+      <Contact> 987655781 </Contact>
+  <ShipmentPackageItemDetail>
+      <itemTitle> Macbook </itemTitle>
+  <ItemQuantity>
+      <Quantity> 100 </Quantity>
+  </ItemQuantity>
+  </ShipmentPackageItemDetail>
+      <if> India </if>
+      <else> IN </else>
+  </consigneeAddress>
+  </shipmentDetail>
+  <shipmentDetail>
+  <consigneeAddress  AddressType = "Katni" >
+      <City> Katni </City>
+      <Name> Nancy </Name>
+      <Zip> 756300 </Zip>
+      <countryName> India </countryName>
+      <countryCode> IN </countryCode>
+      <Contact> 984534321 </Contact>
+      <if> India </if>
+      <else> IN </else>
+  </consigneeAddress>
+  </shipmentDetail>
+  <shipmentDetail>
+  <consigneeAddress  AddressType = "Satna" >
+      <City> Satna </City>
+      <Name> Abul </Name>
+      <Zip> 450000 </Zip>
+      <countryName> Australia </countryName>
+      <countryCode> AUS </countryCode>
+      <Contact> 98684661 </Contact>
+      <if> Australia </if>
+      <else> AUS </else>
+  </consigneeAddress>
+  </shipmentDetail>
+  <shipmentDetail>
+  <consigneeAddress  AddressType = "Satna" >
+      <City> Satna </City>
+      <Name> Jaydeep </Name>
+      <Zip> 450000 </Zip>
+      <countryName> England </countryName>
+      <countryCode> EN </countryCode>
+      <Contact> 948644684 </Contact>
+      <if> England </if>
+      <else> EN </else>
+  </consigneeAddress>
+  </shipmentDetail>
+  <shipmentDetail>
+  <consigneeAddress  AddressType = "Satna" >
+      <City> Satna </City>
+      <Name> Fizan </Name>
+      <Zip> 450000 </Zip>
+      <countryName> New Zealand </countryName>
+      <countryCode> NZ </countryCode>
+      <Contact> 934864648 </Contact>
+      <if> New Zealand </if>
+      <else> NZ </else>
+  </consigneeAddress>
+  </shipmentDetail>
+  <shipmentDetail>
+  <consigneeAddress  AddressType = "Satna" >
+      <City> Satna </City>
+      <Name> Sohan </Name>
+      <Zip> 450000 </Zip>
+      <countryName> Brazil </countryName>
+      <countryCode> BRZ </countryCode>
+      <Contact> 946484686 </Contact>
+      <if> Brazil </if>
+      <else> BRZ </else>
+  </consigneeAddress>
+  </shipmentDetail>

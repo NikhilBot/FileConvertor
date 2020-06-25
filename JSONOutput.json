@@ -1,0 +1,185 @@
+{
+  "manifestDetail" : {
+    "shipmentDetail" : [ {
+      "consigneeAddress" : {
+        "zip" : "450540",
+        "city" : "Satara",
+        "countryCode" : "IN",
+        "name" : "ajay",
+        "length" : "100",
+        "shipmentPackageItemDetail" : {
+          "itemQuantity" : {
+            "quantity" : "100"
+          },
+          "itemTitle" : "Macbook"
+        },
+        "countryName" : "India",
+        "contactPhone" : "987655651",
+        "-AddressType" : "450540"
+      },
+      "shipmentPackageInfo" : {
+        "shipmentPackageDimensions" : {
+          "lengthValue" : "100",
+          "heightValue" : "109"
+        },
+        "cartonID" : {
+          "trackingID" : ""
+        },
+        "height" : "109"
+      }
+    }, {
+      "consigneeAddress" : {
+        "zip" : "450000",
+        "city" : "Satna",
+        "countryCode" : "IN",
+        "name" : "Nikhil",
+        "length" : "10",
+        "countryName" : "India",
+        "contactPhone" : "987654321",
+        "-AddressType" : "450000"
+      },
+      "shipmentPackageInfo" : {
+        "shipmentPackageDimensions" : {
+          "lengthValue" : "10",
+          "heightValue" : "10"
+        },
+        "cartonID" : {
+          "trackingID" : ""
+        },
+        "height" : "10"
+      }
+    }, {
+      "consigneeAddress" : {
+        "zip" : "450580",
+        "city" : "Sal",
+        "countryCode" : "IN",
+        "name" : "ayan",
+        "length" : "105",
+        "shipmentPackageItemDetail" : {
+          "itemQuantity" : {
+            "quantity" : "100"
+          },
+          "itemTitle" : "Macbook"
+        },
+        "countryName" : "India",
+        "contactPhone" : "987655781",
+        "-AddressType" : "450580"
+      },
+      "shipmentPackageInfo" : {
+        "shipmentPackageDimensions" : {
+          "lengthValue" : "105",
+          "heightValue" : "179"
+        },
+        "cartonID" : {
+          "trackingID" : ""
+        },
+        "height" : "179"
+      }
+    }, {
+      "consigneeAddress" : {
+        "zip" : "756300",
+        "city" : "Katni",
+        "countryCode" : "IN",
+        "name" : "Nancy",
+        "length" : "120",
+        "countryName" : "India",
+        "contactPhone" : "984534321",
+        "-AddressType" : "756300"
+      },
+      "shipmentPackageInfo" : {
+        "shipmentPackageDimensions" : {
+          "lengthValue" : "120",
+          "heightValue" : "210"
+        },
+        "cartonID" : {
+          "trackingID" : ""
+        },
+        "height" : "210"
+      }
+    }, {
+      "consigneeAddress" : {
+        "zip" : "450000",
+        "city" : "Satna",
+        "countryCode" : "AUS",
+        "name" : "Abul",
+        "length" : "110",
+        "countryName" : "Australia",
+        "contactPhone" : "98684661",
+        "-AddressType" : "450000"
+      },
+      "shipmentPackageInfo" : {
+        "shipmentPackageDimensions" : {
+          "lengthValue" : "110",
+          "heightValue" : "155"
+        },
+        "cartonID" : {
+          "trackingID" : ""
+        },
+        "height" : "155"
+      }
+    }, {
+      "consigneeAddress" : {
+        "zip" : "450000",
+        "city" : "Satna",
+        "countryCode" : "EN",
+        "name" : "Jaydeep",
+        "length" : "10",
+        "countryName" : "England",
+        "contactPhone" : "948644684",
+        "-AddressType" : "450000"
+      },
+      "shipmentPackageInfo" : {
+        "shipmentPackageDimensions" : {
+          "lengthValue" : "10",
+          "heightValue" : "150"
+        },
+        "cartonID" : {
+          "trackingID" : ""
+        },
+        "height" : "150"
+      }
+    }, {
+      "consigneeAddress" : {
+        "zip" : "450000",
+        "city" : "Satna",
+        "countryCode" : "NZ",
+        "name" : "Fizan",
+        "length" : "10",
+        "countryName" : "New Zealand",
+        "contactPhone" : "934864648",
+        "-AddressType" : "450000"
+      },
+      "shipmentPackageInfo" : {
+        "shipmentPackageDimensions" : {
+          "lengthValue" : "10",
+          "heightValue" : "10"
+        },
+        "cartonID" : {
+          "trackingID" : ""
+        },
+        "height" : "10"
+      }
+    }, {
+      "consigneeAddress" : {
+        "zip" : "450000",
+        "city" : "Satna",
+        "countryCode" : "BRZ",
+        "name" : "Sohan",
+        "length" : "10",
+        "countryName" : "Brazil",
+        "contactPhone" : "946484686",
+        "-AddressType" : "450000"
+      },
+      "shipmentPackageInfo" : {
+        "shipmentPackageDimensions" : {
+          "lengthValue" : "10",
+          "heightValue" : "10"
+        },
+        "cartonID" : {
+          "trackingID" : ""
+        },
+        "height" : "10"
+      }
+    } ]
+  }
+}

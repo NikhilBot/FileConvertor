@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifestDetail>
+   <shipmentDetail>
+      <consigneeAddress AddressType="450540">
+         <zip>450540</zip>
+         <city>Satara</city>
+         <countryCode>IN</countryCode>
+         <name>ajay</name>
+         <length>100</length>
+         <shipmentPackageItemDetail>
+            <itemQuantity>
+               <quantity>100</quantity>
+            </itemQuantity>
+            <itemTitle>Macbook</itemTitle>
+         </shipmentPackageItemDetail>
+         <countryName>India</countryName>
+         <contactPhone>987655651</contactPhone>
+      </consigneeAddress>
+      <shipmentPackageInfo>
+         <shipmentPackageDimensions>
+            <lengthValue>100</lengthValue>
+            <heightValue>109</heightValue>
+         </shipmentPackageDimensions>
+         <cartonID>
+            <trackingID string="true"/>
+         </cartonID>
+         <height>109</height>
+      </shipmentPackageInfo>
+   </shipmentDetail>
+   <shipmentDetail>
+      <consigneeAddress AddressType="450000">
+         <zip>450000</zip>
+         <city>Satna</city>
+         <countryCode>IN</countryCode>
+         <name>Nikhil</name>
+         <length>10</length>
+         <countryName>India</countryName>
+         <contactPhone>987654321</contactPhone>
+      </consigneeAddress>
+      <shipmentPackageInfo>
+         <shipmentPackageDimensions>
+            <lengthValue>10</lengthValue>
+            <heightValue>10</heightValue>
+         </shipmentPackageDimensions>
+         <cartonID>
+            <trackingID string="true"/>
+         </cartonID>
+         <height>10</height>
+      </shipmentPackageInfo>
+   </shipmentDetail>
+   <shipmentDetail>
+      <consigneeAddress AddressType="450580">
+         <zip>450580</zip>
+         <city>Sal</city>
+         <countryCode>IN</countryCode>
+         <name>ayan</name>
+         <length>105</length>
+         <shipmentPackageItemDetail>
+            <itemQuantity>
+               <quantity>100</quantity>
+            </itemQuantity>
+            <itemTitle>Macbook</itemTitle>
+         </shipmentPackageItemDetail>
+         <countryName>India</countryName>
+         <contactPhone>987655781</contactPhone>
+      </consigneeAddress>
+      <shipmentPackageInfo>
+         <shipmentPackageDimensions>
+            <lengthValue>105</lengthValue>
+            <heightValue>179</heightValue>
+         </shipmentPackageDimensions>
+         <cartonID>
+            <trackingID string="true"/>
+         </cartonID>
+         <height>179</height>
+      </shipmentPackageInfo>
+   </shipmentDetail>
+   <shipmentDetail>
+      <consigneeAddress AddressType="756300">
+         <zip>756300</zip>
+         <city>Katni</city>
+         <countryCode>IN</countryCode>
+         <name>Nancy</name>
+         <length>120</length>
+         <countryName>India</countryName>
+         <contactPhone>984534321</contactPhone>
+      </consigneeAddress>
+      <shipmentPackageInfo>
+         <shipmentPackageDimensions>
+            <lengthValue>120</lengthValue>
+            <heightValue>210</heightValue>
+         </shipmentPackageDimensions>
+         <cartonID>
+            <trackingID string="true"/>
+         </cartonID>
+         <height>210</height>
+      </shipmentPackageInfo>
+   </shipmentDetail>
+   <shipmentDetail>
+      <consigneeAddress AddressType="450000">
+         <zip>450000</zip>
+         <city>Satna</city>
+         <countryCode>AUS</countryCode>
+         <name>Abul</name>
+         <length>110</length>
+         <countryName>Australia</countryName>
+         <contactPhone>98684661</contactPhone>
+      </consigneeAddress>
+      <shipmentPackageInfo>
+         <shipmentPackageDimensions>
+            <lengthValue>110</lengthValue>
+            <heightValue>155</heightValue>
+         </shipmentPackageDimensions>
+         <cartonID>
+            <trackingID string="true"/>
+         </cartonID>
+         <height>155</height>
+      </shipmentPackageInfo>
+   </shipmentDetail>
+   <shipmentDetail>
+      <consigneeAddress AddressType="450000">
+         <zip>450000</zip>
+         <city>Satna</city>
+         <countryCode>EN</countryCode>
+         <name>Jaydeep</name>
+         <length>10</length>
+         <countryName>England</countryName>
+         <contactPhone>948644684</contactPhone>
+      </consigneeAddress>
+      <shipmentPackageInfo>
+         <shipmentPackageDimensions>
+            <lengthValue>10</lengthValue>
+            <heightValue>150</heightValue>
+         </shipmentPackageDimensions>
+         <cartonID>
+            <trackingID string="true"/>
+         </cartonID>
+         <height>150</height>
+      </shipmentPackageInfo>
+   </shipmentDetail>
+   <shipmentDetail>
+      <consigneeAddress AddressType="450000">
+         <zip>450000</zip>
+         <city>Satna</city>
+         <countryCode>NZ</countryCode>
+         <name>Fizan</name>
+         <length>10</length>
+         <countryName>New Zealand</countryName>
+         <contactPhone>934864648</contactPhone>
+      </consigneeAddress>
+      <shipmentPackageInfo>
+         <shipmentPackageDimensions>
+            <lengthValue>10</lengthValue>
+            <heightValue>10</heightValue>
+         </shipmentPackageDimensions>
+         <cartonID>
+            <trackingID string="true"/>
+         </cartonID>
+         <height>10</height>
+      </shipmentPackageInfo>
+   </shipmentDetail>
+   <shipmentDetail>
+      <consigneeAddress AddressType="450000">
+         <zip>450000</zip>
+         <city>Satna</city>
+         <countryCode>BRZ</countryCode>
+         <name>Sohan</name>
+         <length>10</length>
+         <countryName>Brazil</countryName>
+         <contactPhone>946484686</contactPhone>
+      </consigneeAddress>
+      <shipmentPackageInfo>
+         <shipmentPackageDimensions>
+            <lengthValue>10</lengthValue>
+            <heightValue>10</heightValue>
+         </shipmentPackageDimensions>
+         <cartonID>
+            <trackingID string="true"/>
+         </cartonID>
+         <height>10</height>
+      </shipmentPackageInfo>
+   </shipmentDetail>
+</manifestDetail>
